@@ -74,7 +74,7 @@ public class TwoSum {
         System.out.print("K : ");
         int k = sc.nextInt();
 
-        System.out.println("Sum Exit : "+ TwoSum.twoSumExists(arr, k));
+//        System.out.println("Sum Exit : "+ TwoSum.twoSumExists(arr, k));
         System.out.println("Indices : "+Arrays.toString(twoSumIndicies(arr, k)));
 
     }
