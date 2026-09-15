@@ -4,7 +4,7 @@ public class RemoveDuplicatesFromShortedArr {
     public static void removeDuplicates(int[] nums){
         int k = 1;
         for(int j =1; j < nums.length; j++){
-            if(nums[k] != nums[j-1]){
+            if(nums[j] != nums[j-1]){
                 nums[k] = nums[j];
                 k += 1;
             }
